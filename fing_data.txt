@@ -1,0 +1,28 @@
+21:41:55 > Discovery profile: Default discovery profile
+21:41:55 > Discovery class:   data-link (data-link layer)
+21:41:55 > Discovery on:      192.168.1.0/26
+
+21:41:55 > Discovery round starting.
+21:41:55 > Host is up:   192.168.1.39
+           HW Address:   B8:27:EB:64:47:D8 (Raspberry Pi)
+
+21:41:55 > Host is up:   192.168.1.1
+           HW Address:   78:8A:20:BB:76:31 (Ubiquiti Networks)
+
+21:41:56 > Discovery progress 25%
+21:41:58 > Discovery progress 50%
+21:41:59 > Discovery progress 75%
+-------------------------------------------------------------------------------
+| State | Host                              | MAC Address       | Last change |
+|-----------------------------------------------------------------------------|
+|  UP   | 192.168.1.1                       | 78:8A:20:BB:76:31 |             |
+|  UP   | 192.168.1.39                      | B8:27:EB:64:47:D8 |             |
+-------------------------------------------------------------------------------
+
+21:42:01 > Discovery round completed in 6.393 seconds.
+21:42:01 > Network 192.168.1.0/26 has 2/2 hosts up.
+
+21:42:01 > Next round starting at 21:42:55. Press Ctrl^C to exit.
+
+21:42:24 > Discovery stopped
+

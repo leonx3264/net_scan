@@ -1,0 +1,143 @@
+/*
+Theme Name:
+Author: Net-Scan
+
+Colors:
+    Body          : #868F9B
+    Headers     : #10161A
+    Primary     : #6195FF
+    Dark      : #FCFCFF
+    Grey          : #F4F4F4 #FAFAFA #EEE
+
+Fonts: Montserrat Varela Round
+
+Table OF Contents
+------------------------------------
+1 > General
+2 > Logo
+3 > Navigation
+4 > Header
+5 > Back to top
+
+
+------------------------------------*/
+
+/*------------------------------------*\
+    General
+\*------------------------------------*/
+
+
+/* -- typography -- */
+
+   h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-left: 400px;
+    margin-bottom: 0px;
+    color: white;
+    }
+h2, h3, h4, h5, h6, p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+h1 {
+    font-size: 54px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 21px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+p{ 
+    font-size: 16px;
+ }
+
+a {
+    color: #6195FF;
+    text-decoration: none;
+    -webkit-transition: 0.2s opacity;
+    transition: 0.2s opacity;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+    opacity: 0.8;
+    color:  lightblue;
+}
+ul {
+  list-style-type: none;
+  font-size: 30px;
+  margin: 0;
+  padding: 20;
+  width: 10%;
+  position: fixed;
+  height: auto;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: lightblue;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+
+/* --  background image section  -- */
+.bg-img {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-img .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .8;
+    background: #1C1D21;
+}
+
+.logo {
+
+    margin-top: 0px
+    
+}
+
+
